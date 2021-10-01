@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Navbar from './Components/Navbar'
+import Post from './Components/Post';
+// import firebase from './Components/firebase';
+import './Components/Post.css'
+// import ModalUnstyled from '@mui/core/ModalUnstyled';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+
+  return (
+    <><div>
+      <Navbar />
+      {/* <Modal
+  open={open}
+  onClose={handleClose}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+> {body}
+</Modal > */}
+
+    </div><div classNmae="app_header"
+  >
+        <Post  UserName="saloni gupta" />
+        <Post  UserName="saloni gupta" />
+        <Post  UserName="saloni gupta" />
+        <Post  UserName="saloni gupta" />
+      </div></>
+  )
+}
+ export default App
+
+  
+      
+

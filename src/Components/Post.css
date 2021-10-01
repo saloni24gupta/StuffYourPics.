@@ -1,0 +1,21 @@
+.Navbar {
+    border: 1px solid lightgray;
+    margin: 1px;
+    padding: 10px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.img-sc {
+   max-width: 20px;
+   background-color: white;
+   border: 1px solid lightgray;
+object-fit: contain;
+}
+.Post {
+    display: flex;
+    text-align: justify;
+   padding: 20 px;
+   margin: 20px;
+   object-fit: contain;
+}
